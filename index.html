@@ -69,22 +69,31 @@ limitations under the License.
 
 
   <!-- End Navbar -->
-  <main class="" id="content" role="main">
-    <article class="recipe-article">
-      <header>
-        <!-- <span class="ampstart-subtitle block px3 pt2 mb2">Market Cap to GDP | FINANCE MARKETS | UNITED STATES</span>  -->
-        <h1 class="mb1 px3">Things You Never Knew About Niacin</h1><!-- Start byline -->
-        <address class="ampstart-byline clearfix mb4 px3 h5">
-          <time class="ampstart-byline-pubdate block bold my1"></time>
-          <template>
-            <time class="ampstart-byline-pubdate block bold my1"></time>
-            <div class="ampstart-byline-pubdate block bold my1">
-              <time class="ampstart-byline-pubdate block bold my1">{{dayName}} {{monthName}} {{day}}, {{year}}</time>
-            </div>
-          </template>
-        </address><!-- End byline -->
-      </header>
-      <p></p>
+    <main id="content" role="main" class="">
+      <article class="recipe-article">
+        <header>
+          <h1 class="mb1 px3">Buffett Indicator Chart</h1>
+
+  <!-- Start byline -->
+  <address class="ampstart-byline clearfix mb4 px3 h5">
+    <time class="ampstart-byline-pubdate block bold my1">
+      <amp-date-display datetime="now"
+      locale="en"
+      layout="fixed"
+      width="360"
+      height="50">
+      <template type="amp-mustache"  >
+          <div class="ampstart-byline-pubdate block bold my1"> {{dayName}} {{monthName}},  {{day}}th {{year}}</div>
+        </template>
+    </amp-date-display>
+  </time>
+  </address>
+  
+
+  <!-- End byline -->
+
+        </header>
+     <p></p>
       <p>Highlights</p>
       <ul>
         <li>Vitamin B3 is also commonly called Niacin.<br>
@@ -129,8 +138,5 @@ limitations under the License.
       <p>Health benefits of niacin: Niacin is helps in treating diabetes</p>
       <p>In accordance with the Food Nutrition Board of the United States, adults over the age of 18 years need about 14-18 mg niacin daily.</p><br>
       <small>© NiacinDirect.com, 2020</small> <!-- End Footer -->
-       
-    </article>
-  </main>
-</body>
+  </body>
 </html>
